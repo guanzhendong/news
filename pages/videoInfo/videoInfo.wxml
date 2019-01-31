@@ -1,0 +1,3 @@
+<!--pages/videoInfo/videoInfo.wxml-->
+
+<web-view src='{{link}}'></web-view>

@@ -1,0 +1,150 @@
+/* pages/videos/videos.wxss */
+
+.video-cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-cell-video {
+  width: 100%;
+  height: 500rpx;
+}
+
+.video-cell-image {
+  width: 100%;
+  height: 500rpx;
+}
+
+.video-cell-title {
+  font-size: 20px;
+  font-weight: bolder;
+  position: absolute;
+  color: white;
+  padding: 20rpx;
+  /* 显示两行 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.video-cell-play-container {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+  align-self: center;
+  margin-top: 180rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-cell-play-icon {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 10rpx;
+}
+
+.video-cell-duration {
+  font-size: 13px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 25rpx;
+  padding-top: 5rpx;
+  padding-left: 20rpx;
+  padding-bottom: 5rpx;
+  padding-right: 20rpx;
+  position: absolute;
+  margin-top: 440rpx;
+  margin-left: 630rpx;
+} 
+
+.video-cell-subContainer {
+  display: flex;
+  flex-direction: row;
+  height: 120rpx;
+}
+
+.video-cell-source-comment-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+.video-cell-source-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.video-cell-comment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.video-cell-social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.video-cell-avatar {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+  margin-right: 16rpx;
+}
+
+.video-cell-source {
+  font-size: 15px;
+  color: #0F1112;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.video-cell-comment-icon {
+  width: 50rpx;
+  height: 50rpx;
+  /* margin-left: 160rpx; */
+}
+
+.video-cell-comment {
+  font-size: 12px;
+  color: #0F1112;
+  margin-left: 12rpx;
+  margin-right: 36rpx;
+}
+
+.video-cell-line {
+  width: 1px;
+  height: 30%;
+  background-color: lightgray;
+  align-self: center;
+}
+
+.video-cell-wechat {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 40rpx;
+}
+
+.video-cell-wechat-circle {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 40rpx;
+}
+
+.video-cell-separator {
+  height: 10rpx;
+  background-color: #F0F2F4;
+}

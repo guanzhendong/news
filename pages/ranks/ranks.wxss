@@ -1,0 +1,69 @@
+/* pages/ranks/ranks.wxss */
+
+.rank-cell {
+  display: flex;
+  background-color: #F0F2F4
+}
+
+.rank-cell-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx;
+  background-color: white;
+  box-shadow: 2px 2px 4px #ddd;
+  border-radius: 10px;
+}
+
+.rank-pic {
+  width: 100%;
+  height: 320rpx;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.rank-source-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: relative;
+  bottom: 60rpx;
+  right: 25rpx;
+}
+
+.rank-source-name {
+  font-size: 11px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20rpx;
+  padding-top: 5rpx;
+  padding-left: 10rpx;
+  padding-bottom: 5rpx;
+  padding-right: 10rpx;
+  margin-right: 10rpx;
+} 
+
+.rank-source-pic {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+}
+
+.rank-title {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: -24rpx;
+  margin-left: 30rpx;
+}
+
+.rank-intro {
+  font-size: 14px;
+  color: #545454;
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+  margin-bottom: 24rpx;
+  margin-right: 30rpx;
+}
+
+.cell-hover {
+  background-color: #E5E6E7
+}  

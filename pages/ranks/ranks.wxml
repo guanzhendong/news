@@ -1,0 +1,18 @@
+<!--pages/ranks/ranks.wxml-->
+
+<view>
+  <block wx:for="{{rankList}}" wx:key="{{item.newsId}}">
+    <view class="rank-cell" bindtap='cellTap' data-id='{{item.newsId}}'>
+      <view class='rank-cell-container' hover-class='cell-hover'>
+        <image class='rank-pic' src='{{item.pic}}'/>
+        <view class='rank-source-container'>
+          <image class='rank-source-pic' src='{{item.sourcepic}}'/>
+          <text class='rank-source-name'>{{item.source}}</text>
+        </view>
+        <text class='rank-title'>{{item.title}}</text>
+        <text class='rank-intro'>{{item.intro}}</text>
+      </view>
+    </view>
+  </block>
+  <loadMore state='{{loadMoreState}}'/>
+</view>

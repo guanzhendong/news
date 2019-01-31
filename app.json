@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/videos/videos",
+    "pages/news/news",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/hots/hots",
+    "pages/ranks/ranks",
+    "pages/newsInfo/newsInfo",
+    "pages/videoInfo/videoInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#493131",
+    "navigationBarTitleText": "官振东",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F0F2F4"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#D81E06",
+    "list": [
+      {
+        "pagePath": "pages/videos/videos",
+        "text": "视频",
+        "iconPath": "images/video.png",
+        "selectedIconPath": "images/video-select.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "要闻",
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news-select.png"
+      },
+      {
+        "pagePath": "pages/hots/hots",
+        "text": "热议",
+        "iconPath": "images/hots.png",
+        "selectedIconPath": "images/hots-select.png"
+      },
+      {
+        "pagePath": "pages/ranks/ranks",
+        "text": "排行",
+        "iconPath": "images/rank.png",
+        "selectedIconPath": "images/rank-select.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "地图",
+        "iconPath": "images/rank.png",
+        "selectedIconPath": "images/rank-select.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

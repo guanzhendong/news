@@ -1,0 +1,83 @@
+/* pages/hots/hots.wxss */
+
+.hots-cell {
+  display: flex;
+  background-color: #F0F2F4
+}
+
+.hots-cell-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20rpx;
+  background-color: white;
+  box-shadow: 2px 2px 4px #ddd;
+  border-radius: 10px;
+}
+
+.hots-element-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+
+.hots-wbPic {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+
+.hots-wbName {
+  font-size: 15px;
+  color: #545454;
+  margin-top: 30rpx;
+  margin-left: 10rpx;
+}
+
+.hots-pic {
+  width: 38%;
+  height: 150rpx; 
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+  margin-right: 0;
+}
+
+.hots-title {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  width: 62%; 
+  height: 150rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin-right: 30rpx;
+  background-color: #ECECEC;
+}
+
+.hots-title-noPic {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  height: 150rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  background-color: #ECECEC;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+  margin-right: 30rpx;
+}
+
+.hots-intro {
+  font-size: 17px;
+  line-height: 50rpx;
+  color: #545454;
+  margin: 30rpx;
+  margin-top: 0;
+}
+
+.cell-hover {
+  background-color: #E5E6E7
+}  

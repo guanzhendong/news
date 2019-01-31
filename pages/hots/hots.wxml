@@ -1,0 +1,23 @@
+<!--pages/hots/hots.wxml-->
+
+<view>
+  <block wx:for="{{hotList}}" wx:key="{{item.newsId}}">
+    <view class="hots-cell" bindtap='cellTap' data-id='{{item.newsId}}'>
+      <view class='hots-cell-container' hover-class='cell-hover'>
+        <view class='hots-element-row'>
+          <image class="hots-wbPic" src="{{item.wbPic}}" mode='aspectFill' />
+          <text class="hots-wbName">{{item.wbName}}</text>
+        </view>
+        <view class='hots-element-row' wx:if="{{item.pic}}">
+          <image class="hots-pic" src="{{item.pic}}" mode='aspectFill' />
+          <text class="hots-title">{{item.title}}</text>
+        </view>
+        <block wx:else>
+          <text class="hots-title-noPic">{{item.title}}</text>
+        </block>
+        <text class='hots-intro'>{{item.intro}}</text>
+      </view>
+    </view>
+  </block>
+  <loadMore state='{{loadMoreState}}'/>
+</view>

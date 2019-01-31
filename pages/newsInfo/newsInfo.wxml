@@ -1,0 +1,15 @@
+<!--pages/newsInfo/newsInfo.wxml-->
+
+<import src="../../wxParse/wxParse.wxml" />
+
+<view class='container'>
+  <text class='newsInfo-title'>{{info.title}}</text>
+  <view class='newsInfo-source-container'>
+    <text class='newsInfo-source'>{{info.source}}</text>
+    <text class='newsInfo-date'>{{pubDate}}</text>
+  </view>
+  <view class='newsInfo-separator'/>
+  <view class='newsInfo-content'>
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+  </view>
+</view>

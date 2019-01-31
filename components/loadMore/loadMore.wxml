@@ -1,0 +1,14 @@
+<!--components/loadMore/loadMore.wxml-->
+
+<block wx:if='{{state===0}}'>
+  
+</block>
+<block wx:elif='{{state===1}}'>
+  <view class="loadMore-container">
+    <view class="loadMore-indicator"></view>
+    <text class="loadMore-title">{{loadingTitle}}</text>
+  </view>
+</block>
+<block wx:elif='{{state===2}}'>
+  <view class="loadMore-noData">{{noMoreDataTitle}}</view>
+</block>

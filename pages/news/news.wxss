@@ -1,0 +1,35 @@
+/* pages/news/news.wxss */
+ 
+.news-cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.news-cell-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.news-image {
+  width: 33%;
+  height: 160rpx; 
+  margin: 20rpx
+}
+
+.news-title {
+  font-size: 19px;
+  width: 67%; 
+  margin: 20rpx;
+  margin-left: 0;
+}
+
+.news-separator {
+  background-color: #D5DBE1;
+  height: 1rpx;
+  margin-left: 20rpx;
+}
+
+.cell-hover {
+  background-color: #D9D9D9
+}  
+

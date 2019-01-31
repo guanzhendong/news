@@ -1,0 +1,11 @@
+/* components/headHUD/headHUD.wxss */
+
+.hud-text {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  width: 100%;
+  height: 50rpx;
+  position: fixed;
+  top: 0;
+}
