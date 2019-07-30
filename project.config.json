@@ -14,10 +14,12 @@
 		"uglifyFileName": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.4.4",
+	"libVersion": "2.7.7",
 	"appid": "wxe0806cf3bb327160",
 	"projectname": "%E6%96%B0%E6%B5%AA%E6%96%B0%E9%97%BB",
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

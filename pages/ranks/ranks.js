@@ -18,8 +18,19 @@ Page({
     })
   },
 
-  fetchData(isPullDown) {
+  fetchData(isPullDown, isReachBottom) {
     wx.showNavigationBarLoading()
+    if (isReachBottom) {
+      const that = this
+      setTimeout(function () {
+        that.startRequest(isPullDown)
+      }, 1000)
+    } else {
+      this.startRequest(isPullDown)
+    }
+  },
+
+  startRequest(isPullDown) {
     const page = isPullDown ? 1 : pageIndex
     wx.request({
       url: "https://interface.sina.cn/wx_api/rank.d.html",
@@ -98,7 +109,7 @@ Page({
     this.setData({
       loadMoreState: 1
     });
-    this.fetchData(false)
+    this.fetchData(false, true)
   },
 
   /**

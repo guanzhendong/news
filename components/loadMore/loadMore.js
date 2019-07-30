@@ -11,7 +11,7 @@ Component({
     },
     loadingTitle: {
       type: String,
-      value: '加载中...'
+      value: '正在加载...'
     },
     noMoreDataTitle: {
       type: String,

@@ -12,7 +12,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#493131",
-    "navigationBarTitleText": "官振东",
+    "navigationBarTitleText": "Daily News zzz",
     "navigationBarTextStyle": "white",
     "backgroundColor": "#F0F2F4"
   },
@@ -22,31 +22,25 @@
     "list": [
       {
         "pagePath": "pages/videos/videos",
-        "text": "视频",
+        "text": "Video",
         "iconPath": "images/video.png",
         "selectedIconPath": "images/video-select.png"
       },
       {
         "pagePath": "pages/news/news",
-        "text": "要闻",
+        "text": "News",
         "iconPath": "images/news.png",
         "selectedIconPath": "images/news-select.png"
       },
       {
         "pagePath": "pages/hots/hots",
-        "text": "热议",
+        "text": "Hot",
         "iconPath": "images/hots.png",
         "selectedIconPath": "images/hots-select.png"
       },
       {
         "pagePath": "pages/ranks/ranks",
-        "text": "排行",
-        "iconPath": "images/rank.png",
-        "selectedIconPath": "images/rank-select.png"
-      },
-      {
-        "pagePath": "pages/index/index",
-        "text": "地图",
+        "text": "Rank",
         "iconPath": "images/rank.png",
         "selectedIconPath": "images/rank-select.png"
       }
@@ -59,5 +53,6 @@
     "scope.userLocation": {
       "desc": "你的位置信息将用于小程序位置接口的效果展示"
     }
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
