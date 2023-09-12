@@ -15,7 +15,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 60rpx;
+  height: 100rpx;
   background-color: #F0F2F4;
 }
 
@@ -26,8 +26,8 @@
 
 .loadMore-noData {
   text-align: center;
-  height: 60rpx;
-  line-height: 60rpx;
+  height: 100rpx;
+  line-height: 100rpx;
   font-size: 14px;
   color: darkgray;
   background-color: #F0F2F4;
