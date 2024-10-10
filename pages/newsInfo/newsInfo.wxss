@@ -30,6 +30,7 @@
   line-height: 70rpx;
   margin: 30rpx;
   margin-top: -50rpx;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
 .newsInfo-separator {
