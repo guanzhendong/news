@@ -3,24 +3,24 @@
 <!-- <video class='video-cell-img' src='{{item.video_info.playurl}}'/> -->
 
 <view>
-  <block wx:for="{{videoList}}" wx:key="{{item.newsId}}">
-    <view class="video-cell" bindtap='cellTap' data-id='{{item.link}}'>
-      <image class='video-cell-image' src='{{item.img_big}}' />
+  <block wx:for="{{videoList}}" wx:key="{{item.vid}}">
+    <view class="video-cell" bindtap='cellTap' data-id='{{item.mp4_url}}'>
+      <image class='video-cell-image' src='{{item.cover}}' />
       <text class='video-cell-title'>{{item.title}}</text>
       <view class='video-cell-play-container'>
         <image class='video-cell-play-icon' src='/images/video-play.png' />
       </view>
-      <text class='video-cell-duration'>{{item.video_info.duration}}</text>
+      <text class='video-cell-duration'>{{item.length}}</text>
 
       <view class='video-cell-subContainer'>
         <view class='video-cell-source-comment-container'>
           <view class='video-cell-source-container'>
-            <image class='video-cell-avatar' src='{{item.icon}}'/>
-            <text class='video-cell-source'>{{item.source}}</text>
+            <image class='video-cell-avatar' src='{{item.videoTopic.topic_icons}}'/>
+            <text class='video-cell-source'>{{item.topicName}}</text>
           </view>
           <view class='video-cell-comment-container'>
             <image class='video-cell-comment-icon' src='/images/comment.png'/>
-            <text class='video-cell-comment'>{{item.comments}}</text>
+            <text class='video-cell-comment'>{{item.replyCount}}</text>
           </view>
         </view>
         <view class='video-cell-line'/>
