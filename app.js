@@ -1,3 +1,5 @@
+const { version } = require("./utils/moment")
+
 //app.js
 App({
   onLaunch: function () {
@@ -35,6 +37,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    version: '1.2.0'
   }
 })
