@@ -1,7 +1,7 @@
 // pages/news/news.js
 
 const common = require('../../common.js')
-// const headHUD = require('../../components/headHUD/headHUD.js')
+const headHUD = require('../../components/headHUD/headHUD.js')
 
 let pageIndex = 1;
 
