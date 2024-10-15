@@ -76,6 +76,7 @@ Page({
   onReady: function () {
     // this.headHUD = this.selectComponent("#headHUD")
     this.headHUD.show()
+    
   },
 
   /**
