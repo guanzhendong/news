@@ -1,7 +1,6 @@
 // pages/news/news.js
 
 const common = require('../../common.js')
-const headHUD = require('../../components/headHUD/headHUD.js')
 
 let pageIndex = 1;
 
@@ -74,8 +73,6 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    // this.headHUD = this.selectComponent("#headHUD")
-    // this.headHUD.show()
     
   },
 
