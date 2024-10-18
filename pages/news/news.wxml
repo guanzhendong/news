@@ -1,7 +1,6 @@
 <!--pages/news/news.wxml-->
 
 <view>
-  <!-- <headHUD id='headHUD'/> -->
   <block wx:for="{{newsList}}" wx:key="{{item.newsId}}">
     <view class="news-cell" hover-class='cell-hover' bindtap='cellTap' data-id='{{item.newsId}}'>
       <view class='news-cell-container'>
