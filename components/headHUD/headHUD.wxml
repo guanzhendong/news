@@ -1,6 +1,0 @@
-<!--components/headHUD/headHUD.wxml-->
-
-<text class='hud-text' style='display:{{true ? flex : none}}' hidden="true">{{title}}</text>
-  
-
-
