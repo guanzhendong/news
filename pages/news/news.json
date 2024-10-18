@@ -2,7 +2,6 @@
   "enablePullDownRefresh": true,
   "backgroundTextStyle": "dark",
   "usingComponents": {
-    "headHUD": "/components/headHUD/headHUD",
     "loadMore": "/components/loadMore/loadMore"
   }
 }
